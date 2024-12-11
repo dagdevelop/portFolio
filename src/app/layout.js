@@ -49,7 +49,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased scroll-smooth bg-gradient-to-r from-black via-30% via-neutral-960  to-neutral-900 to-[#291902] `}
       >
         <NavBar />
         {children}

@@ -13,7 +13,8 @@ export default function Presentation() {
         <div className="information">
           <div className="text">Hello i'm</div>
           <div className="name scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-            Vially Armel
+            <span>Vially</span>
+            <span>Armel</span>
           </div>
           <div className="job">Developer Analyst</div>
           <div className="infos">
@@ -38,7 +39,7 @@ export default function Presentation() {
           </div>
         </div>
         <div className="imageBloc">
-          <div className="avatar">
+          <div className="avatar animate-bounce">
             <Avatar
               style={{
                 width: "100%",

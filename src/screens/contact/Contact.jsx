@@ -138,7 +138,7 @@ export default function Contact() {
               <CardContent>
                 <form>
                   <div className="grid w-full items-center gap-4">
-                    <div className="flex flex-row gap-4">
+                    <div className="flex flex-col md:flex-row  gap-4">
                       <div>
                         <Input
                           type="name"
@@ -158,7 +158,7 @@ export default function Contact() {
                         />
                       </div>
                     </div>
-                    <div className="flex flex-row gap-4">
+                    <div className="flex flex-col md:flex-row flex-row gap-4">
                       <div>
                         <Input
                           id="email"
