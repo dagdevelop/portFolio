@@ -1,0 +1,26 @@
+.my-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  .bloc-title {
+    width: 100%;
+    text-align: center;
+    .title-label {
+      font-size: 4rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .my-title-container {
+    .bloc-title {
+      .title-label {
+        font-size: 2rem;
+      }
+    }
+  }
+}

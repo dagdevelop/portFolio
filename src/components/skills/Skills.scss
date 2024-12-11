@@ -1,0 +1,24 @@
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+    padding: 1rem;
+    border-radius: 6px;
+    width: 100%;
+    gap: 1rem;
+    cursor: pointer;
+    
+
+    .icon:hover {
+        color: #B76E00;
+    }
+
+    // .label {
+
+    // }
+    .icon {
+        transition: all 0.3s ease-in-out;
+    }
+}

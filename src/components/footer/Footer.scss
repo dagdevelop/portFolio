@@ -1,0 +1,17 @@
+.footer {
+  background-color: #000;
+  margin-top: 4rem;
+  padding: 2rem;
+  color: gray;
+  font-size: small;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    background-color: #000;
+    margin-top: 4rem;
+    padding: 2rem;
+    color: gray;
+    font-size: x-small;
+  }
+}

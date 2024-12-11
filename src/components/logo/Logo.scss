@@ -1,0 +1,15 @@
+.logo {
+  display: flex;
+  align-items: center;
+
+  .label {
+    font-style: italic;
+    font-family: fantasy;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 60%;
+  }
+}

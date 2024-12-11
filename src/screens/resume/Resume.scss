@@ -1,0 +1,192 @@
+.resume {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  padding: 1rem;
+  margin-top: 4rem;
+  .container {
+    display: flex;
+    width: 100%;
+
+    .tabList {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 1rem;
+      width: 50%;
+
+      .header {
+        .title {
+          font-size: 3rem;
+        }
+        .subTtile {
+          font-weight: 100;
+          font-size: small;
+          width: 80%;
+          color: gray;
+        }
+      }
+
+      .tab-list-items {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+
+        .tabItem.active {
+          background-color: #b76e00;
+        }
+        .tabItem {
+          background-color: rgb(32, 32, 32);
+          padding: 6px;
+          border-radius: 10px;
+          width: 20rem;
+          text-align: center;
+          text-transform: capitalize;
+          cursor: pointer;
+          transition: all 0.4s ease-in-out;
+
+          &:hover {
+            background-color: #b76e00;
+          }
+        }
+      }
+    }
+
+    .tabContent {
+      width: 50%;
+
+      .template {
+        text-align: left;
+        .title {
+          font-size: 2.5rem;
+          text-transform: capitalize;
+        }
+        .description {
+          font-size: small;
+          padding: 1rem;
+        }
+      }
+
+      .iconTech {
+        font-size: 3rem;
+      }
+
+      .infos {
+        gap: 1rem;
+        .info {
+          display: flex;
+          gap: 1rem;
+
+          .label {
+            font-size: small;
+            color: gray;
+          }
+        }
+      }
+    }
+  }
+}
+
+.resume-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .resume {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 4rem;
+    .container {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+
+      .tabList {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        width: 100%;
+
+        .header {
+          .title {
+            font-size: 2rem;
+          }
+          .subTtile {
+            font-weight: 100;
+            font-size: small;
+            width: 100%;
+            color: gray;
+          }
+        }
+
+        .tabItem.active {
+          background-color: #b76e00;
+        }
+
+        .tab-list-items {
+          gap: 1rem;
+          justify-content: center;
+          align-items: center;
+          flex-direction: row;
+
+          .tabItem {
+            background-color: rgb(32, 32, 32);
+            padding: 6px;
+            border-radius: 10px;
+            width: 100%;
+            font-size: small;
+            text-align: center;
+            text-transform: capitalize;
+            cursor: pointer;
+            transition: all 0.4s ease-in-out;
+            display: flex;
+
+            &:hover {
+              background-color: #b76e00;
+            }
+          }
+        }
+      }
+
+      .tabContent {
+        width: 100%;
+        margin-top: 1rem;
+
+        .template {
+          text-align: left;
+          .title {
+            font-size: 2.1rem;
+            text-transform: capitalize;
+          }
+          .description {
+            font-size: small;
+            padding: 1rem;
+          }
+        }
+
+        .iconTech {
+          font-size: 3rem;
+        }
+
+        .infos {
+          gap: 1rem;
+          .info {
+            display: flex;
+            gap: 1rem;
+
+            .label {
+              font-size: small;
+              color: gray;
+            }
+          }
+        }
+      }
+    }
+  }
+}

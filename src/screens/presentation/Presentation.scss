@@ -1,0 +1,156 @@
+.presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+
+  .bg {
+    background: url("/images/vially2.jpeg") no-repeat center 30%;
+    filter: brightness(0.4) contrast(1.2) blur(3px);
+    height: 100vh;
+    width: 100%;
+  }
+
+  .datas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 100%;
+    // background-color: red;
+    justify-content: space-around;
+    padding: 2rem;
+
+    .information {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 8px;
+      align-items: left;
+      height: auto;
+
+      .job {
+        font-size: 1.5rem;
+        color: gray;
+        font-weight: 600;
+        letter-spacing: 2px;
+        width: 100%;
+      }
+
+      .text {
+        font-size: small;
+      }
+
+      .name {
+        font-size: 4rem;
+        letter-spacing: 4px;
+        font-weight: 900;
+      }
+
+      .infos {
+        display: flex;
+        justify-content: space-between;
+        width: 23%;
+        gap: 1rem;
+
+        .item {
+          display: flex;
+          gap: 1rem;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          text-transform: uppercase;
+          transition: all 0.3s ease-in-out;
+        }
+
+        .item:active {
+          transform: scale(0.9);
+        }
+        .item:hover {
+          color: #b76e00;
+        }
+      }
+      .socialMedia {
+        display: flex;
+        gap: 2rem;
+        .icon {
+          transition: all 0.3s ease-in-out;
+          cursor: pointer;
+        }
+        .icon:active {
+          transform: scale(0.9);
+        }
+        .icon:hover {
+          color: #b76e00;
+        }
+      }
+    }
+
+    .imageBloc {
+      width: 25%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .presentation {
+    .datas {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      flex-direction: column;
+      width: 100%;
+      justify-content: space-between;
+      padding: 2rem;
+
+      .information {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        align-items: left;
+        height: auto;
+
+        .job {
+          font-size: 1.2rem;
+          color: gray;
+          font-weight: 500;
+          letter-spacing: 2px;
+          width: 100%;
+        }
+
+        .name {
+          font-size: 3rem;
+          letter-spacing: 4px;
+          font-weight: 900;
+        }
+
+        .infos {
+          display: flex;
+          justify-content: space-between;
+          width: 20%;
+          gap: 1rem;
+        }
+      }
+
+      .imageBloc {
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+
+        .avatar {
+          width: 50%;
+          padding: 1rem;
+        }
+      }
+    }
+  }
+}

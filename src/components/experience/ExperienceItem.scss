@@ -1,0 +1,40 @@
+.experience-item {
+  background-color: rgb(32, 32, 32);
+  padding: 1rem;
+  border-radius: 6px;
+  width: 100%;
+  .period {
+    text-transform: capitalize;
+    font-size: small;
+    color: #b76e00;
+  }
+  .label {
+    text-transform: capitalize;
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  .details {
+    padding: 1rem;
+
+    li {
+      text-transform: capitalize;
+      font-size: x-small;
+      list-style: outside;
+      color: gray;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .experience-item {
+    width: 100%;
+
+    .details {
+      padding: 0;
+
+      li {
+        width: 100%;
+      }
+    }
+  }
+}

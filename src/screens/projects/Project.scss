@@ -1,0 +1,202 @@
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+
+  .bloc-container {
+    width: 60%;
+
+    .carousel {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+
+      .bloc-carousel {
+        display: flex;
+        justify-content: space-between;
+
+        .card-content {
+          display: flex;
+          flex-direction: column;
+          justify-content: left;
+          width: 50%;
+
+          .number {
+            font-size: 5rem; /* Taille du chiffre */
+            color: transparent; /* Rendre le texte transparent */
+            -webkit-text-stroke: 1px white;
+          }
+          .name,
+          .description,
+          .bloc-action,
+          .number {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            text-align: left;
+            width: 100%;
+          }
+          .text {
+            flex: 1;
+            .name {
+              font-size: 2.1rem;
+              font-weight: 600;
+            }
+            .description {
+              font-size: small;
+              color: gray;
+            }
+          }
+
+          .techno {
+            font-size: x-small;
+            font-weight: 700;
+
+            .item {
+              margin-right: 4px;
+              margin-bottom: 1rem;
+              background-color: #b76e00;
+            }
+          }
+
+          .bloc-action {
+            display: flex;
+            gap: 1rem;
+            justify-content: left;
+
+            .hover {
+              background-color: transparent;
+              color: white;
+              z-index: 200;
+            }
+
+            .action {
+              cursor: pointer;
+
+              transition: all 0.4s ease-in-out;
+
+              &:hover {
+                color: #b76e00;
+              }
+            }
+          }
+        }
+
+        .carousel-content {
+          .card {
+            // width: 50%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+
+    .bloc-container {
+      width: 100%;
+
+      .carousel {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        .bloc-carousel {
+          display: flex;
+          flex-direction: column-reverse;
+
+          justify-content: space-between;
+
+          .card-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            width: 100%;
+
+            .number {
+              font-size: 5rem; /* Taille du chiffre */
+              color: transparent; /* Rendre le texte transparent */
+              -webkit-text-stroke: 1px white;
+            }
+            .name,
+            .description,
+            .bloc-action,
+            .number {
+              padding-top: 1rem;
+              padding-bottom: 1rem;
+              text-align: left;
+              width: 100%;
+            }
+            .text {
+              flex: 1;
+              .name {
+                font-size: 2.1rem;
+                font-weight: 600;
+              }
+              .description {
+                font-size: small;
+                color: gray;
+              }
+            }
+
+            .techno {
+              font-size: x-small;
+              font-weight: 700;
+
+              .item {
+                margin-right: 4px;
+                margin-bottom: 1rem;
+                background-color: #b76e00;
+              }
+            }
+
+            .bloc-action {
+              display: flex;
+              gap: 1rem;
+              justify-content: left;
+
+              .hover {
+                background-color: transparent;
+                color: white;
+                z-index: 200;
+              }
+
+              .action {
+                cursor: pointer;
+
+                transition: all 0.4s ease-in-out;
+
+                &:hover {
+                  color: #b76e00;
+                }
+              }
+            }
+          }
+
+          .bloc-carousel {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            .carousel {
+              width: 80%;
+
+              // .carousel-content {
+              //   .card {
+              //   }
+              // }
+            }
+          }
+        }
+      }
+    }
+  }
+}
