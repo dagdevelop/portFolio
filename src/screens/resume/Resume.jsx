@@ -173,6 +173,14 @@ const experiences = [
     ],
   },
   {
+    period: "2023-2024",
+    label: "Oresto Company",
+    details: ["Own Project",
+      "Online Restaurant Menu Creation Application",
+      "Menu accessible by scanning a QR code"
+    ],
+  },
+  {
     period: "2022-2024",
     label: "ALDI Entrepôt Gembloux",
     details: ["Retrieve and stack store orders correctly on pallets"],
@@ -308,7 +316,7 @@ const infos = [
   },
   {
     label: "Languages",
-    value: "French (C2), German (B1), English (A1)",
+    value: "French (C2), German (B1), English (A2)",
   },
 ];
 
