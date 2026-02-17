@@ -49,7 +49,7 @@ export default function Contact() {
     }
     setLoading(true);
     sendMail({
-      to: "vially.dag@oresto.company",
+      to: "v.dag@viallydaggroup.com",
       subject: "Nouvelle demande d'embauche",
       template: "email-contact",
       datas: {
@@ -229,8 +229,8 @@ export default function Contact() {
               icon={<MdEmail />}
               label="E-mail"
               value={
-                <a href="mailto:vially.dag@oresto.company">
-                  vially.dag@oresto.company
+                <a href="mailto:v.dag@viallydaggroup.com">
+                  v.dag@viallydaggroup.com
                 </a>
               }
             />

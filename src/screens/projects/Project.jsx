@@ -66,10 +66,30 @@ const projects = [
      providing services in Cameroon, including assistance
       with visa applications to Cameroon, airport facilitation,
        car rental, and the rental of furnished apartments and hotels.`,
-    technologies: ["Next js", "Material UI", "Vercel", "Github"],
+    technologies: ["Next js", "Material UI", "Vercel", "Github, MongoDB"],
     image: "/images/miakem.png",
     github: "",
     demo: "https://www.miakem.com/",
+  },
+  {
+    number: 4,
+    name: "Mata's Agency",
+    description: `Mata's Agency is an agency and a business hub, a central point where businesses, experts and opportunities meet.`,
+    technologies: ["Next js", "Material UI", "Vercel", "Github, Resend"],
+    image: "/images/matas.png",
+    github: "",
+    demo: "https://www.matasagency.com/",
+  },
+  {
+    number: 5,
+    name: "Ingénious LTD",
+    description: `Ingénious Ltd accompanies 
+    your projects with technical expertise, 
+    regulatory controls and professional training in Gabon.`,
+    technologies: ["Next js", "Material UI", "Vercel", "Github, Resend"],
+    image: "/images/ingenious.png",
+    github: "",
+    demo: "https://www.ingenious.ga/",
   },
 ];
 
@@ -92,7 +112,7 @@ export default function Project() {
   }, [api]);
 
   return (
-    <div className="project-container">
+    <div id="projects" className="project-container">
       <div className="bloc-container">
         <Title label="Projects" />
         <div className="container">
@@ -132,12 +152,19 @@ export default function Project() {
                 <Separator />
 
                 <div className="bloc-action">
-                  <Link href={projects[current - 1]?.demo}>
+                  <Link
+                    target="_blank"
+                    className="flex items-center gap-2"
+                    href={projects[current - 1]?.demo}
+                  >
                     <GoLinkExternal className="action" />
+                    visiter
                   </Link>
-                  <Link href={projects[current - 1]?.github}>
-                    <FaGithub className="action" />
-                  </Link>
+                  {projects[current - 1]?.github && (
+                    <Link href={projects[current - 1]?.github}>
+                      <FaGithub className="action" />
+                    </Link>
+                  )}
                 </div>
               </div>
               <div className="bloc-carousel">

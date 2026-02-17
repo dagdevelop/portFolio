@@ -46,7 +46,6 @@ export const jobServices = [
 ];
 
 export async function convertImageToDataURI(imagePath) {
-  console.log("imagePath", imagePath);
   
   const response = await fetch(imagePath);
   if (!response.ok) {

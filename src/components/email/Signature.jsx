@@ -33,8 +33,8 @@ const Signature = () => {
               <a href="tel:+32492473290">+32 492 47 32 90</a>
             </li>
             <li style={{ marginBottom: "5px" }}>
-              <a href="mailto:vially.dag@oresto.company">
-                vially.dag@oresto.company
+              <a href="mailto:v.dag@viallydaggroup.com">
+                v.dag@viallydaggroup.com
               </a>
             </li>
             <li style={{ marginBottom: "5px" }}>

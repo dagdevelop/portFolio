@@ -134,7 +134,7 @@ export default function Resume() {
             <div className="header">
               <div className="title">Why hire me ?</div>
               <div className="subTtile">
-                Junior Developer Analyst passionate about development and
+                Developer Analyst passionate about development and
                 analysis of IT solutions. Skilled in Nextjs, Nodejs, MongoDB, I
                 am known for my ability to learn quickly and work effectively in
                 a team. My goal is to contribute to innovative projects while
@@ -180,28 +180,28 @@ const experiences = [
       "Menu accessible by scanning a QR code"
     ],
   },
-  {
-    period: "2022-2024",
-    label: "ALDI Entrepôt Gembloux",
-    details: ["Retrieve and stack store orders correctly on pallets"],
-  },
-  {
-    period: "2021-2023",
-    label: "UBER DRIVER",
-    details: [
-      "Picking up orders from restaurants",
-      "Delivering orders quickly and safely to customers",
-    ],
-  },
-  {
-    period: "2018-2021",
-    label: "Brasserie Exotique Knokke ",
-    details: [
-      "Bring dishes to the customers’ tables",
-      "Washing the dishes in the kitchen",
-      "Prepare certain dishes",
-    ],
-  },
+  // {
+  //   period: "2022-2024",
+  //   label: "ALDI Entrepôt Gembloux",
+  //   details: ["Retrieve and stack store orders correctly on pallets"],
+  // },
+  // {
+  //   period: "2021-2023",
+  //   label: "UBER DRIVER",
+  //   details: [
+  //     "Picking up orders from restaurants",
+  //     "Delivering orders quickly and safely to customers",
+  //   ],
+  // },
+  // {
+  //   period: "2018-2021",
+  //   label: "Brasserie Exotique Knokke ",
+  //   details: [
+  //     "Bring dishes to the customers’ tables",
+  //     "Washing the dishes in the kitchen",
+  //     "Prepare certain dishes",
+  //   ],
+  // },
 ];
 
 const Experience = ({ value }) => {
@@ -285,7 +285,7 @@ const Skills = ({ value }) => {
 const infos = [
   {
     label: "Name",
-    value: "Vially Armel Dongmo Guefack",
+    value: "Vially Dag",
   },
   {
     label: "Phone",
@@ -304,9 +304,9 @@ const infos = [
     value: (
       <a
         style={{ color: warning.dark }}
-        href="mailto:vially.dag@oresto.company"
+        href="mailto:v.dag@viallydaggroup.com"
       >
-        vially.dag@oresto.company
+        v.dag@viallydaggroup.com
       </a>
     ),
   },

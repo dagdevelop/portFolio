@@ -3,8 +3,8 @@ import { Resend } from "resend";
 import TemplateDefaultEmail from "./components/email/TemplateDefaultEmail";
 import TemplateEmailContact from "./components/email/TemplateEmailContact";
 
-const EMAIL_ENTREPRISE = "vially.dag@oresto.company";
-const Key_RESEND = "re_V9ahjCFx_2vNj9PCtLeNERX4rAMECP4rP";
+const EMAIL_ENTREPRISE = "v.dag@viallydaggroup.com";
+const Key_RESEND = process.env.RESEND_API_KEY;
 
 export const sendMail = async ({
   to,

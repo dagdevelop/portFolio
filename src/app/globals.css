@@ -14,11 +14,21 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
   scroll-behavior: smooth;
+}
+
+/* Évite que la navbar fixe masque la section cible */
+[id="projects"],
+[id="contact"] {
+  scroll-margin-top: 5rem;
 }
 
 @layer base {

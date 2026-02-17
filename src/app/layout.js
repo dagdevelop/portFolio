@@ -22,25 +22,25 @@ export const metadata = {
   icons: [
     {
       rel: "icon",
-      url: "/logo/viallyLogo1.jpeg",
+      url: "/logo/viallyLogo1.png",
     },
     {
       rel: "icon",
-      type: "image/jpeg",
+      type: "image/png",
       sizes: "16x16",
-      url: "/logo/viallyLogo1.jpeg",
+      url: "/logo/viallyLogo1.png",
     },
     {
       rel: "icon",
-      type: "image/jpeg",
+      type: "image/png",
       sizes: "32x32",
-      url: "/logo/viallyLogo1.jpeg",
+      url: "/logo/viallyLogo1.png",
     },
     {
       rel: "icon",
-      type: "image/jpeg",
+      type: "image/png",
       sizes: "180x180",
-      url: "/logo/viallyLogo1.jpeg",
+      url: "/logo/viallyLogo1.png",
     },
   ],
 };
