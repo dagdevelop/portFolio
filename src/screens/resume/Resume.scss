@@ -116,17 +116,19 @@
         .header {
           .title {
             font-size: 2rem;
+            color: white;
           }
           .subTtile {
             font-weight: 100;
             font-size: medium;
             width: 100%;
-            color: gray;
+            color: lightgray;
           }
         }
 
         .tabItem.active {
           background-color: #b76e00;
+          color: white;
         }
 
         .tab-list-items {
@@ -146,7 +148,7 @@
             cursor: pointer;
             transition: all 0.4s ease-in-out;
             display: flex;
-
+            color: white;
             &:hover {
               background-color: #b76e00;
             }
@@ -163,7 +165,7 @@
           .title {
             font-size: 2.1rem;
             text-transform: capitalize;
-            color: rgb(99, 98, 98);
+            color: red;
           }
           .description {
             font-size: small;
@@ -184,6 +186,9 @@
             .label {
               font-size: small;
               color: gray;
+            }
+            .value {
+              color: white;
             }
           }
         }

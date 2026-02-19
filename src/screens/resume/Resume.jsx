@@ -329,7 +329,7 @@ const AboutMe = ({ value }) => {
             return (
               <div key={key} className="info">
                 <div className="label"> {i?.label} </div>
-                <div className="value"> {i?.value} </div>
+                <div className="value text-white"> {i?.value} </div>
               </div>
             );
           })}

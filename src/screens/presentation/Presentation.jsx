@@ -11,7 +11,7 @@ export default function Presentation() {
       <div className="datas">
         <div className="information">
           <div className="text">Hello i'm</div>
-          <div className="name scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl flex gap-5">
+          <div className="name scroll-m-20 text-4xl font-extrabold lg:text-5xl flex gap-5">
             <span>Vially</span>
             <span>Dag</span>
           </div>

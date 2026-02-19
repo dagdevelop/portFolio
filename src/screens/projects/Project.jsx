@@ -126,7 +126,7 @@ export default function Project() {
                   {projects[current - 1]?.number}
                 </div>
                 <div className="text">
-                  <div className="name tracking-tight">
+                  <div className="name tracking-tight text-white">
                     {" "}
                     {projects[current - 1]?.name}{" "}
                   </div>
@@ -154,10 +154,10 @@ export default function Project() {
                 <div className="bloc-action">
                   <Link
                     target="_blank"
-                    className="flex items-center gap-2"
+                    className="flex items-center gap-2 text-white"
                     href={projects[current - 1]?.demo}
                   >
-                    <GoLinkExternal className="action" />
+                    <GoLinkExternal className="action text-white" />
                     visiter
                   </Link>
                   {projects[current - 1]?.github && (

@@ -7,7 +7,7 @@ export default function InfoItem({icon, label, value}) {
         <div className="icon"> {icon} </div>
         <div className="info-datas">
             <div className="label"> {label} </div>
-            <div className="value"> {value} </div>
+            <div className="value text-white"> {value} </div>
         </div>
     </div>
   </div>;

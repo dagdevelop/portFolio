@@ -127,7 +127,7 @@ export default function Contact() {
           <div className="form">
             <Card className="w-[100%]">
               <CardHeader>
-                <CardTitle className="form-title">
+                <CardTitle className="form-title text-white">
                   Let's work together
                 </CardTitle>
                 <CardDescription>

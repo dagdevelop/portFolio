@@ -35,7 +35,7 @@
 
       .job {
         font-size: 1.5rem;
-        color: gray;
+        color: lightgray;
         font-weight: 600;
         letter-spacing: 2px;
         width: 100%;
@@ -49,6 +49,7 @@
         font-size: 4rem;
         letter-spacing: 4px;
         font-weight: 900;
+        color: white;
       }
 
       .infos {
@@ -79,6 +80,7 @@
         .icon {
           transition: all 0.3s ease-in-out;
           cursor: pointer;
+          color: white;
         }
         .icon:active {
           transform: scale(0.9);
@@ -118,7 +120,6 @@
 
         .job {
           font-size: 1.2rem;
-          color: gray;
           font-weight: 500;
           letter-spacing: 2px;
           width: 100%;

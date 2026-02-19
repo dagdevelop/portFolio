@@ -5,7 +5,7 @@ export default function ExperienceItem({ period, label, details }) {
   return (
     <div className="experience-item">
       <div className="period"> {period} </div>
-      <div className="label"> {label} </div>
+      <div className="label text-white"> {label} </div>
       <div>
         <ul className="details">
           {details?.map((d, key) => {
